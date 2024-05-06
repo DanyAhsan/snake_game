@@ -1,0 +1,36 @@
+#gamecontainer{
+    text-align: center;
+}
+
+#gameboard{
+    border: 3px solid black;
+}
+
+#score{
+    font-family: "Permanent Marker", cursive;
+    font-size: 100px;
+}
+
+#resetbtn {
+    background-color: white;
+    border: 2px solid black; 
+    color: black;
+    
+    
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 10%;
+}
+
+#resetbtn:hover {
+    background-color: #45a049;
+    color: white;
+}
+
+
